@@ -2,12 +2,7 @@
 public class Morales2 {
 
     public static void main(String[] args) {
-        int x = 10;
-
         getFibNums();
-
-        System.out.println();
-
     }
 
     public static void getFibNums() {
@@ -24,9 +19,7 @@ public class Morales2 {
             }
             firstTerm = secondTerm;
             secondTerm = nextTerm;
-
         }
         System.out.println(total);
     }
-
 }

@@ -108,9 +108,8 @@ public class Morales13 {
         array[98] = new BigInteger("53503534226472524250874054075591789781264330331690");
         array[99] = new BigInteger("37107287533902102798797998220837590246510135740250");
 
-        for(BigInteger i : array) {
+        for(BigInteger i : array)
             sum = sum.add(i);
-        }
         String sumString = sum.toString().substring(0,10);
 
         System.out.println(sumString);

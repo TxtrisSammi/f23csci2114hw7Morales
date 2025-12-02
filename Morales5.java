@@ -3,7 +3,6 @@ public class Morales5 {
     public static void main(String[] args) {
         for (int i = 2520; i > 0; i += 20) {
             if (i % 20 == 0
-                && i % 20 == 0
                 && i % 19 == 0
                 && i % 18 == 0
                 && i % 17 == 0

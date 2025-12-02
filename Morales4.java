@@ -7,7 +7,6 @@ public class Morales4 {
                 int product = i * j;
                 if (isPalindrome(product) && product > bigPal) {
                     bigPal = product;
-                    
                 }
             }
         }

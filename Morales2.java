@@ -8,7 +8,7 @@ public class Morales2 {
         
         while (nextTerm <= n) {
             nextTerm = firstTerm + secondTerm;
-            if (nextTerm % 2 == 0 && nextTerm <= 4000000)
+            if (nextTerm % 2 == 0 && nextTerm <= n)
                 total += nextTerm;
             firstTerm = secondTerm;
             secondTerm = nextTerm;

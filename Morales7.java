@@ -1,5 +1,4 @@
 // 104743
-
 import java.util.ArrayList;
 
 public class Morales7 {
